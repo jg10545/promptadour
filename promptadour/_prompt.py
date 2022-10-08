@@ -5,7 +5,7 @@ DEFAULT_ARTICLES = {"thing":["a", "an", "the"],
            "context":["in"]}
 DEFAULT_TAGTYPES = ["thing", "stuff", "context"]
 
-def _prompterate(tags, ont, max_per_type=2, articles=DEFAULT_ARTICLES, tagtypes=DEFAULT_TAGTYPES):
+def prompterate(tags, ont, max_per_type=2, articles=DEFAULT_ARTICLES, tagtypes=DEFAULT_TAGTYPES):
     """
     
     """

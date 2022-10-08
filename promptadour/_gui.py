@@ -1,6 +1,7 @@
 import numpy as np
 import panel as pn
 import json
+import logging
 import matplotlib.pyplot as plt
 from collections import defaultdict
 
